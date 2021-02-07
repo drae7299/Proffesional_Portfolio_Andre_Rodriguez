@@ -1,8 +1,8 @@
+
 * {
   box-sizing: border-box;
 }
-
-/* brand color palette */
+/* Main colors for portfolio */
 :root {
   --primary: rgb(134, 91, 97);
   --secondary: rgba(146, 204, 206, 1);
@@ -10,13 +10,12 @@
   --dark: rgba(28, 29, 33, 1);
   --light: rgba(238, 238, 247, 1);
 }
-  
+  /* made changes to font family and removed background color*/
   body {
     margin: 0;
     padding: 0;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--primary);
-    background-color: var();
     line-height: 1.5;
   }
   
@@ -28,11 +27,11 @@
   h6 {
     margin: 0;
   }
-  
+  /* centered text and added em to the text itself */
   p {
     margin: 0;
   }
-  
+  /* added border radius */
   header {
     padding: 15px 6% 15px 0;
     display: flex;
@@ -44,9 +43,11 @@
     box-shadow: 0 5px 35px rgba(40, 42, 42, 0.4);
     border-radius: 20px;
   }
+  /*created id for border radius editing  */
   .rounder{
     border-radius: 30px;
   }
+  /* added in border radius and shadow for most of content below as well as color edits and px etc, also added gradient teritary to nav words for effect */
   header h1 {
     color: var(black);
     background-color: var(black);
@@ -96,7 +97,7 @@
     margin-top:100px;
     margin-bottom: 45px;
   }
-  
+  /* added in border radius and changed background */
   .hero-pic {
     background: rgb(44, 44, 72);
     background-size: cover;
@@ -116,7 +117,7 @@
   .hero-pic div {
     flex: 0 0 40%;
   }
-  
+  /* dded in new font family */
   .hero-pic h2 {
     background-color: var(--light);
     color: var(--tertiary);
@@ -129,7 +130,7 @@
     font-family:'Times New Roman', Times, serif
   }
 
-  
+  /* edited class attributes */
   .page-wrapping {
     max-width: 88%;
     margin-left: auto;
@@ -173,7 +174,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+  /* added in url image */
   .flex-item {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
@@ -187,19 +188,22 @@
     margin: 0.5em;
     text-decoration:;
     background-blend-mode: soft-light;
+    background-image:url("download.jpg");
     background-size: 150%;
     transition: all 0.8s;
     font-size: 0.9rem;
     border-radius: 25px;
+
   }
   
-  /* feature first portfolio item */
+ 
   .flex-item:first-child {
     border-radius: 30px; 
     min-height: 350px;
       flex-basis: 80%;
+
   }
-  
+  /* added in hover to text in item boxes */
   .flex-item:hover {
     background-color: rgba(0, 0, 0, 0.3);
   }
@@ -252,29 +256,30 @@
     color: var(--secondary);
   }
   
-  /* portfolio project images */
+  /*images for flex box items */
   .html {
-    background-image: url("../
+    background-image: url("./assets/download.jpg");
+    background-position: center;
   }
   
-  .Javascript {
-    background-image: url("../images/02-portfolio-1.jpg");
+  .javascript {
+    background-image: url("./assets/javaa.png");
+    background-position: center;
   }
   
   .style {
-    background-image: url("../images/02-portfolio-2.jpg");
+    background-image: url("./assets/style\ pic.png");
+    background-position: center;
   }
   
-  .place-holder {
-    background-image: url("../images/02-portfolio-3.jpg");
+
+  .css {
+    background-image: url("./assets/css.jpg");
+    background-position: center;
   }
   
-  .CSS {
-    background-image: url("../images/02-portfolio-4.jpg");
-  }
-  
-  /* end portfolio project images */
-  
+
+  /*  media query for mobile and desktop screens */
   @media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
