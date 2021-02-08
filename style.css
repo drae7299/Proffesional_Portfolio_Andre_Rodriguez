@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: var(--primary);
+    color: whitesmoke;
     line-height: 1.5;
   }
   
@@ -276,13 +276,12 @@
     background-position: bottom;
     margin: 0 0.2rem 0.1rem;
     display: flex;
-    flex-direction: flex row;
+    flex-direction: row;
     flex-wrap: wrap;
     border-radius: 20px;
     box-shadow: 10, 20, 5;
-    align-items:stretch;
   }
-  
+
   .contact address a:hover {
     background-size: 100% 77%;
     color: var(--secondary);
