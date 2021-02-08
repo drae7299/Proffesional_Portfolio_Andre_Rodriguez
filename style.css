@@ -177,13 +177,13 @@
     
   }
   
-  .flex-container {
+  .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   /* added in url image */
-  .flex-item {
+  .item {
     border: 5px solid var(--secondary);
     background-color: var(--tertiary);
     color: var(--tertiary);
@@ -205,32 +205,32 @@
   }
   
  
-  .flex-item:first-child {
+  .item:first-child {
     border-radius: 30px; 
     min-height: 350px;
       flex-basis: 80%;
 
   }
   /* added in hover to text in item boxes */
-  .flex-item:hover {
+  .item:hover {
     background-color: rgba(0, 0, 0, 0.3);
   }
   
-  .flex-item div {
+  .item div {
     background-color: var(--secondary);
     padding: 1px 10px;
     border-radius: 25px;
   }
   
-  .flex-item h3 {
+  .item h3 {
     font-size: 1.6rem;
   }
-  .flex-item h3:hover {
+  .item h3:hover {
     background-size: 100% 100%;
     color: var(--primary);
      transition: all 0.2s;
   }
-  .flex-item span:hover{
+  .item span:hover{
     background-size: 100% 100%;
     color: var(--primary);
      transition: all 0.2s;
