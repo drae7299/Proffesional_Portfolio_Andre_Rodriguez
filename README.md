@@ -16,8 +16,9 @@ make this accessible to those on phones and even desktops. The actualy links wil
 
 ### Visuals
 
-![Portfolio top](https://user-images.githubusercontent.com/77699769/107141708-ba32c680-68f8-11eb-918c-3007bc6ac9d1.PNG)
-![Portfolio bottom](https://user-images.githubusercontent.com/77699769/107141711-bef77a80-68f8-11eb-968e-94d7da9d4d03.PNG)
+![PortTop](https://user-images.githubusercontent.com/77699769/107194089-9d13fb80-69bd-11eb-9e0e-4113f73720d9.PNG)
+![PortBot](https://user-images.githubusercontent.com/77699769/107194078-99807480-69bd-11eb-86cf-b1d282f80de1.PNG)
+
 
 
 
