@@ -209,8 +209,8 @@
     border: 5px solid var(--secondary);
     background-color: var(--tertiary);
     color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 250px;
+    max-height: 200px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
@@ -218,7 +218,7 @@
     margin: 0.5em;
     text-decoration:;
     background-blend-mode: soft-light;
-    background-size: 150%;
+    background-size: 100%;
     transition: all 0.8s;
     font-size: 0.9rem;
     border-radius: 25px;
